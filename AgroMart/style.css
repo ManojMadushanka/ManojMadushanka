@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: greenyellow;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+
+    background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    background-color: black;
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    background-color: aqua;
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+}
+
+.bar_items {
+    justify-content: space-around;
+    display: inline-flex;
+    width: 300px;
+}
